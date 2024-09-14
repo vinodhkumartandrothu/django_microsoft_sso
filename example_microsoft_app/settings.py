@@ -280,3 +280,6 @@ GOOGLE_SSO_LOGO_URL = (
 # which filters SSO templates, uncomment both options:
 SILENCED_SYSTEM_CHECKS = ["templates.W003"]
 SSO_USE_ALTERNATE_W003 = True  # default: False
+
+MICROSOFT_SSO_TENANT_ID = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+MICROSOFT_SSO_AUTHORITY = f"https://login.microsoftonline.com/{MICROSOFT_SSO_TENANT_ID}"
